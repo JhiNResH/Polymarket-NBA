@@ -1,0 +1,24 @@
+# 敏感檔案 (絕對不能 push!)
+.env
+google_credentials.json
+
+# 數據檔案
+data/
+logs/
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# macOS
+.DS_Store
