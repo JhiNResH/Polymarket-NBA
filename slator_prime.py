@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ================= ⚙️ 系統配置區 =================
-SYSTEM_NAME = "🦅 Slator Prime (Market Expert)"
+SYSTEM_NAME = "🦅 Slator Prime"
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
