@@ -186,7 +186,7 @@ def process_lol(seen_ids):
 
 if __name__ == "__main__":
     print(f"\n🦅 {SYSTEM_NAME} ONLINE")
-    send_telegram(f"🤖 *Slator v6.0 (Market Expert) 上線*", silence=True)
+    send_telegram(f"🤖 *Slator Prime上線*", silence=True)
     
     seen_news = set()
     last_heartbeat = time.time()
